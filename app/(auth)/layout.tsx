@@ -10,7 +10,7 @@ export default function PublicLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<div className="relative mx-auto flex min-h-[calc(100vh-75px)] w-full items-center justify-center">
+		<div className="relative mx-auto flex min-h-screen w-full items-center justify-center">
 			<main className="w-full max-w-md space-y-4 px-4 py-10 md:py-4">
 				<div className="flex items-center justify-between">
 					<Link
